@@ -6,7 +6,6 @@
 }
 .main {
 width: auto;
-padding: 15px 10px 5px 10px;
 margin:  0px;
 height: auto;
 
@@ -14,22 +13,28 @@ height: auto;
 .header {
 width:100%;
 line-height: 100px;
-background: #b6ee91;
-display: flex;
-flex: start;
-padding-left: 0px;
+background: #6f885e;
 color: white;
-box-shadow: 5px 3px 15 -5px black;
+box-shadow: 5px 5px 15 -10px rgb(114, 105, 105);
+border-radius: 5px;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
 }
+
 .note{
-    margin-top: 50px;
+    margin-top: auto;
     background: #fff;
     border-radius: 7px;
     box-shadow: 0 2px 5px #ccc;
     padding: 30px;
-    width: 340px;
-    margin-left: 380px;
-    
+    width: 300px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
 }
 
 textarea{
@@ -82,13 +87,15 @@ input{
     background: #fff;
     border-radius: 7px;
     box-shadow: 0 2px 5px #ccc;
-    padding: 10px;
-    width: 200px;
+    padding: 10px ;
+    width:250px;
     margin-left: 10px;
-    overflow: hidden;
-    margin: 5px;
-    float:left;
     height: auto;
+    margin: 10px;
+    margin-block-start:320px;
+    display:block;
+    float: left;
+    align-content:start;
     
 }
 
