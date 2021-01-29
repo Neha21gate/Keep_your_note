@@ -8,7 +8,7 @@ return (
     <>
            <div className="header">
            
-           <h1 > 📝  Keep Notes to Remember 📝  </h1>
+           <h1 > 📝  Keep your Notes on the Fingers! 📝  </h1>
            </div>
 
 
